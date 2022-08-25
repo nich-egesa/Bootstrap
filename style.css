@@ -1,0 +1,81 @@
+body{
+    background-color: #00ffff;/* light blue background */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/* main Websit font*/
+    font-size: 16px;/* Default Website fonte-size*/
+    text-align: center;/* default text orientation*/
+}
+.container{
+    width: 80%;/* making website to boxed*/
+    background-color: white;/* White website background*/
+    margin: 0 auto;/* Aligning the website center*/
+}
+
+
+h1.title{
+    text-align: left important;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: #00ffff;
+    transition: ease-in-out .7s;
+}
+
+
+
+/*Navigation Bar*/
+.top-menu{
+     background-color: brown;/* Assigning brown color
+     overflow: hidden; /* Hidding the text overflows*/
+}
+
+.top-menu ul li{
+    list-style-type: none;/* Removing the Unordered list bullets or markers*/
+    float: left;/* Align the list items horizontally*/
+    border-left: 2px #fa8072;/* Adding the white border*/
+    padding: 5px 10px;/* Adding some space:vertical and horizontal*/
+}
+.top-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00ffff;
+    font-weight: 800;
+    font-size: 24px;
+}
+.top-menu ul li:hover
+    background-color:purple
+}
+.top-menu ul li:hover
+    text-decoration: underline;
+    color:brown;
+
+
+    /*styling the image */
+    .main-img{
+        width: 100%; /*makes the image full-width*/
+        height: 50vh; /*defines the height of an image in vertical height units*/
+    }
+
+
+    /*styling the image inside  table*/
+    table img{
+        height: 500px;
+        width: 400px;
+    }
+    table img:hover{
+        opacity: 5;/* On hovering the image, blur the image to o. 5*/
+        transform: scale(1.005); /* Increases the width and heigh of the image by 1.005*/
+        transition: ease-in 2s; /* Dictates method and time taken for the transformation to occur*/
+    }
+
+    /*credits section */
+    .credits{
+        background-color: brown;
+        padding: 30px;
+        color: white;
+        font-size: 24px;
+    }
+    
